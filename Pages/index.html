@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FinanPop final</title>
+
+    <!-- Chamada da CSS do BS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Chamada Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Chamada Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link para minha CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body class="d-flex flex-column">
+    <!-- Cabeçalho -->
+    <header class="navbar navbar-expand-lg bg-primary fixed-top bg-dark">
+      <div class="container-fluid d-flex">
+        <a class="navbar-brand text-light fs-2" href="#">Easy Carros</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light fw-bold"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fw-bold" href="#">Carros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fw-bold" href="#"
+                >Veiculos de Transporte</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fw-bold" href="#">Suporte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fw-bold" href="#">Minha Conta</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- Corpo 1º componente -->
+
+    <section class="container mt-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-6">
+          <h2 class="my-title display-5 my-4 fw-bold mt-5">
+            Locação de carros sem estresse.
+          </h2>
+          <h3 class="mb-4">
+            Somos uma Empresa de Aluguel de veiculos que realiza sonhos com
+            inovações para facilitar a sua vida.
+          </h3>
+          <a href="" class="btn btn-dark btn-lg mb-5">Veja as opções ! </a>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="./images/team.jpg" alt="" class="img-fluid rounded" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Corpo 2o componente -->
+    <section class="container my-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="../images/kwid.png"
+              class="card-img-top"
+              alt="Cofrinho de porco"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Aluguel para Transportes</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+                enim distinctio nostrum aperiam, maxime dolorum.
+              </p>
+              <a href="#" class="btn btn-dark"> Alugue agora !</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="../images/reanult-scalade.png"
+              class="card-img-top"
+              alt="Livros"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Aluguel padrão</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                non tenetur libero modi doloribus impedit.
+              </p>
+              <a href="#" class="btn btn-dark"> Alugue agora !</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="../images//Caminhao-Bau-Hyundai-HR-EURO-V-Imagem-Ilustrativa-00.png"
+              class="card-img-top"
+              alt="Calculadora e caneta"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Aluguel por hora</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                non tenetur libero modi doloribus impedit.
+              </p>
+              <a href="#" class="btn btn-dark"> Alugue agora !</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer
+      class="footer d-flex justify-content-center align-items-center bg-dark"
+    >
+      <div class="rights text-light p-3">
+        Todos os direitos reservados &copy; 2023
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
