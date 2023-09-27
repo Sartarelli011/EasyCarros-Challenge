@@ -29,16 +29,19 @@
 
     <!-- Link para minha CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Easy Carros</title>
   </head>
-  <body class="">
-    <header class="navbar navbar-expand-lg bg-primary fixed-top bg-dark mb-5">
+  <title>Easy Carros</title>
+
+  <body>
+    <!-- header/menu -->
+
+    <header class="navbar navbar-expand-lg bg-primary fixed-top bg-dark">
       <div class="container-fluid d-flex">
         <a class="navbar-brand text-light fs-2" href="index.html"
           >Easy Carros</a
         >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler custom-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -94,57 +97,47 @@
         </div>
       </div>
     </header>
-    <!-- fim header -->
+    <!-- final do header -->
 
-    <section
-      class="mt-5 pt-5 d-flex flex-column justify-content-center align-items-center p-3"
-    >
-      <div class="container bg-white borde rounded p-2 gap-2">
-        <h1 class="text-center">Easy Carros</h1>
-        <p class="">
-          Estamos animados em apresentar a vocês a nossa mais recente inovação:
-          o Plano de Assinatura Easy Carros. Sabemos que você, como nosso
-          cliente fiel, valoriza a comodidade e a qualidade em todos os aspectos
-          relacionados ao seu veículo. Agora, estamos levando essa experiência a
-          um nível totalmente novo!.
-        </p>
-      </div>
-
-      <div class="d-flex gap-5 justify-content-center align-items-center mt-3">
-        <div class="card w-25">
-          <div class="card-body">
-            <h5 class="card-title">Plano Básico</h5>
-            <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
-            </p>
-            <a href="#" class="btn btn-dark">Assinar</a>
-          </div>
+    <!-- Inicio card aluguel por hora -->
+    <section class="container mt-5 pt-5 p-2">
+      <div class="d-flex justify-content-center align-items-center gap-3">
+        <div class="mt-5 d-flex flex-column">
+          <img class="" src="../images/onix-premier-at-turbo.png" />
+          <p>
+            <strong>Transmissão:</strong> 6 velocidades. <br />
+            <strong>Motor:</strong> 1.0 <br />
+            <strong>Combustivel: </strong> Flex.<br />
+            <strong>Abs:</strong> Sim.<br />
+            <strong>Ar-condicionado:</strong>Sim.
+          </p>
         </div>
+        <div class="w-50 h-50">
+          <h1>Onix Premier Turbo</h1>
+          <p>
+            Você pode solicitar seu novo veiculo preenchendo os dados abaixo.<br />
+            Em breve um vendedor ira entrar em contato.
+          </p>
+          <form class="d-flex flex-column gap-2" action="">
+            <div class="d-flex gap-2">
+              <div class="d-flex gap-2">
+                <label for="">Nome</label> <input type="text" />
+              </div>
+              <div class="d-flex gap-2">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" value="+55" />
+              </div>
+            </div>
 
-        <div class="card w-25">
-          <div class="card-body">
-            <h5 class="card-title">Plano Intermediario</h5>
-            <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
-            </p>
-            <a href="#" class="btn btn-dark">Assinar</a>
-          </div>
-        </div>
-
-        <div class="card w-25">
-          <div class="card-body">
-            <h5 class="card-title">Plano Avançado</h5>
-            <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
-            </p>
-            <a href="#" class="btn btn-dark">Assinar</a>
-          </div>
+            <div class="mt-2 d-flex gap-3">
+              <h3>R$30,00/h</h3>
+              <button class="btn btn-success w-25">Alugar !</button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
+
     <footer
       class="footer d-flex justify-content-center align-items-center bg-dark fixed-bottom"
     >

@@ -9,6 +9,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.egali.com.br%2Fblog%2F13-estradas-perfeitas-para-viajar-de-carro-na-europa%2F&psig=AOvVaw2kDmRPhn26lyYDmU1H7VCM&ust=1695771958886000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPixlJr5xoEDFQAAAAAdAAAAABAF");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header .navbar-toggler:hover {
